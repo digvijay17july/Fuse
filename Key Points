@@ -1,0 +1,21 @@
+*Red Hat Fuse is an integration platform, based on Apache Camel, that embraces the concept of agile integration.
+
+*Agile integration is based on four pillars: distributed platform, pattern-based integration, API first, and containerization.
+
+*Apache Camel is a library that implements Enterprise Integration Patterns (EIPs): reusable and proven solutions to recurring integration problems, based on messaging concepts.
+
+*Apache Camel provides built-in connectors to both new and legacy systems, ranging from Enterprise Resource Planning (ERP) systems to cloud services.
+
+*Red Hat Fuse supports three runtimes: JBoss EAP, Apache Karaf, and Spring Boot. These three runtimes can be deployed as either stand-alone application containers over a certified Java Virtual Machine (JVM) or as containerized applications on OpenShift.
+
+*A Red Hat Fuse subscription includes entitlements and full support for Red Hat JBoss EAP and Red Hat AMQ, but does not include a subscription to Red Hat OpenShift Container Platform.
+
+*A Fuse developer solves integration problems by designing Camel routes, which connect two endpoints. A route transforms and moves data from a source to one or more destination endpoints.
+
+*Camel endpoints can be file servers, message-oriented middleware, ERP systems, SOAP web services, cloud applications, and more. Camel connectors provide configuration for these endpoints.
+
+*A Fuse developer solves complex integration problems by composing multiple EIPs into one or more Camel routes, which can be deployed on a single runtime, on multiple runtimes, and as multiple containers.
+
+*A Fuse developer describes a Camel route using either the Java or the XML Domain Specific Language (DSL).
+
+*A Fuse developer can choose among the Context and Dependency Injection (CDI), the Spring framework, and the OSGi Blueprint frameworks to wire routes, connectors, and custom Java Beans inside an application.
